@@ -1,4 +1,4 @@
-name: 'Slack Notify Build'
+name: 'Prairie Robotics Slack Notify'
 description: 'Report GitHub Actions build status on Slack'
 branding:
   icon: message-square
