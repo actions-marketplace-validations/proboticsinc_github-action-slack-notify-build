@@ -1,3 +1,4 @@
+Forked from https://github.com/voxmedia/github-action-slack-notify-build to add workflow dispatch branch names.
 # Slack Notify Build
 
 This action prints your GitHub Action build status to Slack. It takes an opinionated approach by showing attachments for metadata like branch, pull request, and event. This action allows [existing messages to be updated](#updating-an-existing-message) to reduce unwanted noise in your Slack channel. Heavily-inspired by [Post Slack messages](https://github.com/marketplace/actions/post-slack-message).
@@ -7,7 +8,7 @@ A [Slack bot token](https://api.slack.com/docs/token-types) is required to use t
 ## Usage
 
 ```yaml
-uses: voxmedia/github-action-slack-notify-build@v1
+uses: proboticsinc/github-action-slack-notify-build
 with:
   channel: app-alerts
   status: STARTED
